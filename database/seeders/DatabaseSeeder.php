@@ -15,11 +15,28 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        User::firstOrCreate(
+            ['email' => 'test@example.com'],
+            [
+                'name' => 'Test User',
+                'password' => 'password',
+            ],
+        );
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        $admin = config('auth.admin_seed');
+
+        if (blank($admin['email']) || blank($admin['password'])) {
+            $this->command?->warn('Admin user was not seeded. Set ADMIN_EMAIL and ADMIN_PASSWORD in .env.');
+
+            return;
+        }
+
+        User::updateOrCreate(
+            ['email' => $admin['email']],
+            [
+                'name' => $admin['name'],
+                'password' => $admin['password'],
+            ],
+        );
     }
 }
