@@ -43,7 +43,7 @@ Dashboard merupakan halaman utama administrator untuk mengakses fitur-fitur yang
 
 **Screenshot:**
 
-![Dashboard Admin](screenshots/Screenshot 2026-10-28 133206.png)
+![Dashboard Admin](screenshots/dashboard.png)
 
 ### 2. Pengelolaan Stok Barang
 
@@ -59,7 +59,7 @@ Fitur yang dikembangkan:
 
 **Screenshot daftar barang:**
 
-![Halaman Pengelolaan Barang](screenshots/Screenshot 2026-10-28 142606.png)
+![Halaman Pengelolaan Barang](screenshots/barang.png)
 
 
 ### 3. Pencarian Prospek Pelanggan
@@ -68,7 +68,7 @@ Modul ini dirancang untuk mendukung pengelolaan informasi calon pelanggan sebaga
 
 **Screenshot:**
 
-![Modul Prospek Pelanggan](screenshots/WhatsApp Image 2026-10-28 at 14.42.19.jpeg)
+![Modul Prospek Pelanggan](screenshots/prospek%20pelanggan.jpeg)
 
 
 
@@ -78,9 +78,7 @@ Modul ini dirancang untuk mendukung pengelolaan data kampanye pemasaran perusaha
 
 **Screenshot:**
 
-![Modul Kampanye Pemasaran](screenshots/Screenshot 2026-10-28 134231.png)
-
-*Tambahkan screenshot setelah modul tersedia dan dapat dijalankan.*
+![Modul Kampanye Pemasaran](screenshots/kampanye.png)
 
 
 
